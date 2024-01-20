@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "OSS Plugin",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["*://*.github.com/*/*"],
+      "css": [],
+      "js": ["content.js"]
+    }
+  ],
+  "host_permissions": ["http://localhost:3333/api/*", "https://github.com/*/*"],
+  "optional_permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

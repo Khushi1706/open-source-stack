@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: center;
+}
+
+.passwordContainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.125rem;
+}
+
+.forgotPass {
+    color: #2dbd6e;
+    font-size: 1rem;
+    text-align: end;
+}
+
+.loginButton {
+    width: 150px;
+}
+
+.gotoRegister {
+    color: #2dbd6e;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ossLogo {
+    margin: 1rem 0;
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    background: -webkit-linear-gradient(right, #a6f77b, #2dbd6e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

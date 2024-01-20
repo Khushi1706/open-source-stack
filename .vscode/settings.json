@@ -1,0 +1,26 @@
+{
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": ".*",
+                "isAsync": true,
+                "cmd": "echo 'I run for all files.'"
+            },
+            {
+                "match": "\\.tsx$",
+                "isAsync": true,
+                "cmd": "npx nx build plugin"
+            },
+            {
+                "match": "\\.module.css$",
+                "isAsync": true,
+                "cmd": "npx nx build plugin"
+            },
+            {
+                "match": "\\.ts$",
+                "isAsync": true,
+                "cmd": "npx nx build plugin"
+            },
+        ]
+    }
+}

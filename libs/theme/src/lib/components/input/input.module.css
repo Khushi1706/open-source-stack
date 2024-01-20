@@ -1,0 +1,39 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    padding-top: 1rem;
+}
+
+.inputContent {
+    background: #fbfbfb;
+    border: none;
+    outline: none;
+    padding-top: 14px;
+}
+
+.required:after {
+    content:" *";
+    color: red;
+}
+
+.errorMessage {
+    margin: 0.5rem 0;
+    color: red;
+}
+
+.formBorder {
+    background: -webkit-linear-gradient(right, #a6f77b, #2ec06f);
+    height: 1px;
+    width: 100%;
+}
